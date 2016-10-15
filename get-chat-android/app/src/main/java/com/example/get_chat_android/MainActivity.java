@@ -17,6 +17,15 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
+        Button b1 = (Button) findViewById(R.id.buttonOk);
+        b1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+               // Log.e("MainActivity", "Hello world!");
+            }
+        });
+
+
 
         Button b2 = (Button) findViewById(R.id.btRegistraion);
         b2.setOnClickListener(new View.OnClickListener() {
